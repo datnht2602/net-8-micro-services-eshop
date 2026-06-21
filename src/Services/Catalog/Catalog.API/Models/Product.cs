@@ -8,4 +8,13 @@ public class Product
     public string ImageFile { get; set; } = null!;
     public decimal Price { get; set; }
     public List<string> Category { get; set; } = [];
+
+    public void Update(string requestName, string requestDescription, decimal requestPrice, List<string> requestCategory, string requestImageFile)
+    {
+        Name = requestName;
+        Description = requestDescription;
+        Price = requestPrice;
+        Category = requestCategory;
+        ImageFile = requestImageFile;
+    }
 }

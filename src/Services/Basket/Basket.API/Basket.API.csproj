@@ -13,11 +13,4 @@
       </Content>
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageReference Include="Carter" Version="9.0.0" />
-        <PackageReference Include="Marten" Version="9.9.1" />
-    </ItemGroup>
 </Project>
