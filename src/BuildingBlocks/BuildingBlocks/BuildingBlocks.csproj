@@ -7,8 +7,20 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="12.1.1" />
+      <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
       <PackageReference Include="Mapster" Version="10.0.8" />
       <PackageReference Include="MediatR" Version="14.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Diagnostics">
+        <HintPath>..\..\..\..\..\..\..\usr\local\share\dotnet\shared\Microsoft.AspNetCore.App\9.0.9\Microsoft.AspNetCore.Diagnostics.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+        <HintPath>..\..\..\..\..\..\..\usr\local\share\dotnet\shared\Microsoft.AspNetCore.App\9.0.9\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

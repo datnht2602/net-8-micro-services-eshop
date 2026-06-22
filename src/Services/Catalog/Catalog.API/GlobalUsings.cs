@@ -7,3 +7,6 @@ global using Carter;
 global using MediatR;
 global using Mapster;
 global using Catalog.API.Exception;
+global using FluentValidation;
+global using BuildingBlocks.Behaviors;
+global using BuildingBlocks.Exceptions.Handler;
